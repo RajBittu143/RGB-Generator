@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="High-level corporate website for showcasing services and innovations.">
+  <title>Rkp Samrat Tech Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, #0011fc, #f742de);
+      padding: 1rem 2rem;
+      color: white;
+    }
+
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 2rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    section.video{
+     align-items:center;
+    }
+    
+    section.hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('hero-bg.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: rgb(165, 165, 165);
+    }
+
+    section.hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    section.services {
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+
+    .service-card {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+
+    .service-card img {
+      max-width: 40%;
+      border-radius: 8px;
+    }
+
+    .service-card div {
+      padding: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #4CAF50;
+      color: white;
+    }
+
+    /* Responsiveness */
+    @media (max-width: 768px) {
+      .service-card {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .service-card img {
+        max-width: 90%;
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Website Logo" style="width: 100px; height: auto;">
+  <div class="logo">Rkp Samrat TEch Solutions</div>
+  <nav>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<marquee behavior="alternet" direction="right" style="color:rgb(255, 238, 0)"><b>Welcome to Rkp Samrat TEch Solution || E-mail : ramkrishn804479@gmail.com</b></marquee>
+    <h1><b>Technology: A Gateway to innovations and Progress</b></h1>
+    <h2><b>1. Introduction</b></h2>
+    <p><b>Technology refers to the application of scientific knowledge to create tools, processes, and systems that solve problems and enhance human capabilities. </b></p>
+    <p><b> It has been a driving force in shaping civilizations, enabling progress in various fields such as healthcare, communication, transportation, and education.
+    </b></p><br>
+    <a href="https://en.wikipedia.org/wiki/Information_technology">Technology</a><br>
+    <hr>
+    <h2>Some Videos</h2>
+    <section class="video">
+    <video width="300" controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.mp4">
+    </video>
+    </section>
+
+<section class="hero">
+  <div>
+    <h1>Innovating the Future</h1>
+    <p>We provide cutting-edge tech solutions to drive your business forward.</p>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-card">
+    <img src="cloud.png" alt="Service 1">
+    <div>
+      <h3>Cloud Computing</h3>
+      <p>Efficient and scalable cloud solutions tailored to your needs.</p>
+    </div>
+  </div>
+  <div class="service-card">
+    <img src="Ai.jpeg" alt="Service 2">
+    <div>
+      <h3>AI and Machine Learning</h3>
+      <p>Unlock the power of AI for smarter business decisions.</p>
+    </div>
+  </div>
+  <div class="service-card">
+    <img src="cyber.jpeg" alt="Service 3">
+    <div>
+      <h3>Cybersecurity</h3>
+      <p>Protect your digital assets with our comprehensive solutions.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Rkp Samrat Tech Solutions. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
